@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=level\ score\ completed
+comment0.target=DeathScreen(int,\ int,\ boolean)
+comment0.text=\r\n\ Constructor\ for\ the\ DeathScreen.\r\n\ Create\ visual\ elements\ for\ the\ player.\r\n\ Such\ as\:\ final\ score,\ restart\ button,\ exit\ to\ title\ screen.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Listen\ to\ any\ button\ clicks\ that\ the\ player\ does.\r\n
+numComments=2

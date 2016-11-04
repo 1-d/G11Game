@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=g
+comment0.target=Player(Game)
+comment0.text=\r\n\ Simple\ constructor\ does\ not\ require\ much\ info.\r\n\ Variables\ are\ already\ initialized.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Check\ for\ any\ speed\ changes,\ like\ left/right\ and\ jumping.\r\n\ Then\ performs\ the\ actual\ movement.\r\n\ After\ actual\ movement,\ collisions\ are\ read\ and\ position\ is\ updated.\r\n\ Then\ check\ if\ the\ player\ is\ dead.\r\n
+comment2.params=d
+comment2.target=int\ roundAway(double)
+comment2.text=\r\n\ Looks\ like\ Java\ kept\ this\ method\ well-hidden\ because\ I\ can't\ find\ it.\r\n\ This\ method\ will\ round\ a\ number\ away\ from\ zero.\r\n
+comment3.params=actorUp\ actorDown\ actorLeft\ actorRight
+comment3.target=boolean\ touchObject(int,\ int,\ int,\ int)
+comment3.text=\r\n\ An\ enemy\ will\ call\ this\ often.\r\n\ Checks\ if\ the\ enemy\ touches\ the\ player.\r\n
+comment4.params=
+comment4.target=int\ getLives()
+comment4.text=\r\n\ Returns\ the\ number\ of\ lives\ in\ the\ player.\r\n
+comment5.params=
+comment5.target=void\ loseLife()
+comment5.text=\r\n\ Force\ the\ player\ to\ lose\ a\ life.\r\n\ The\ player\ can\ die\ if\ the\ number\ of\ lives\ is\ zero\ afterwards.\r\n
+comment6.params=
+comment6.target=void\ pushBackPixel()
+comment6.text=\r\n\ Move\ the\ player\ back\ one\ pixel.\r\n
+numComments=7

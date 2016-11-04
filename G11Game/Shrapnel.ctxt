@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=g\ x\ y\ dX\ dY
+comment0.target=Shrapnel(Game,\ int,\ int,\ int,\ int)
+comment0.text=\r\n\ Constructor\ for\ the\ shrapnel.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Every\ act,\ the\ shrapnel\ will\ try\ to\ move.\r\n\ If\ the\ shrapnel\ collides\ with\ anything,\ it\ will\ die.\r\n
+comment2.params=
+comment2.target=void\ hitPlayer()
+comment2.text=\r\n\ Called\ when\ the\ shrapnel\ has\ hit\ the\ player.\r\n
+numComments=3

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=imageDirectory
+comment0.target=Block(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ the\ block.\r\n\ Takes\ in\ a\ image\ file\ directory\ and\ sets\ this\ as\ its\ image.\r\n
+comment1.params=
+comment1.target=void\ pushBackPixel()
+comment1.text=\r\n\ Move\ this\ block\ back\ one\ pixel.\r\n
+numComments=2

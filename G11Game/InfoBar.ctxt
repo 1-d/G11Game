@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=currentGame\ barHeight
+comment0.target=InfoBar(greenfoot.World,\ int)
+comment0.text=\r\n\ Constructor\ for\ the\ InfoBar.\r\n\ Gets\ basic\ information\ about\ the\ player\ then\ updates\ once.\r\n
+comment1.params=
+comment1.target=boolean\ pressedExit()
+comment1.text=\r\n\ This\ method\ checks\ whether\ the\ player\ is\ pressing\ on\ the\ exit\ button.\r\n
+comment2.params=newScore\ newLives
+comment2.target=void\ updateInfo(int,\ int)
+comment2.text=\r\n\ Replaces\ the\ known\ information\ with\ the\ new\ information.\r\n\ Then\ updates\ the\ information\ seen\ on\ the\ screen.\r\n
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\r\n\ Updates\ the\ gameInfoText.\r\n\ This\ will\ update\ what\ is\ seen\ on\ the\ screen.\r\n
+numComments=4

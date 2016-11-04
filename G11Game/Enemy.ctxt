@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ pushBackPixel()
+comment0.text=\r\n\ Move\ this\ enemy\ back\ one\ pixel.\r\n
+comment1.params=
+comment1.target=void\ die()
+comment1.text=\r\n\ Called\ when\ this\ enemy\ dies.\r\n
+comment2.params=d
+comment2.target=int\ roundAway(double)
+comment2.text=\r\n\ Looks\ like\ Java\ kept\ this\ method\ well-hidden\ because\ I\ can't\ find\ it.\r\n\ This\ method\ will\ round\ a\ number\ away\ from\ zero.\r\n
+numComments=3

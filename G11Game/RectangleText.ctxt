@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=text\ fontSize\ width\ height
+comment0.target=RectangleText(java.lang.String,\ int,\ int,\ int)
+comment0.text=\r\n\ Constructor\ for\ RectangleText.\r\n\ Get\ all\ the\ info,\ then\ create\ the\ RectangleImage\ immediately.\r\n
+comment1.params=text\ fontSize\ width\ height
+comment1.target=void\ updateText(java.lang.String,\ int,\ int,\ int)
+comment1.text=\r\n\ This\ method\ changes\ the\ text\ on\ the\ RectangleImage.\r\n
+numComments=2

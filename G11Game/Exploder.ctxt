@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=g\ x\ y\ dX\ pieces
+comment0.target=Exploder(Game,\ int,\ int,\ int,\ int)
+comment0.text=\r\n\ Constructor\ for\ the\ exploder.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Every\ act,\ the\ exploder\ will\ try\ to\ move.\r\n\ The\ exploder\ falls\ normally,\ but\ if\ it\ hits\ a\ left/right\ wall,\r\n\ then\ the\ exploder\ will\ explode\ and\ die.\r\n
+comment2.params=
+comment2.target=void\ hitPlayer()
+comment2.text=\r\n\ Called\ when\ the\ exploder\ has\ hit\ the\ player.\r\n
+comment3.params=explode
+comment3.target=void\ die(boolean)
+comment3.text=\r\n\ Interesting\ die\ method.\r\n\ If\ this\ exploder\ dies,\ then\ it\ could\ explode\ some\ Shrapnel\ enemies.\r\n
+numComments=4

@@ -1,7 +1,7 @@
 import greenfoot.*;
 import java.util.Scanner;
-import java.io.File;
 import java.util.HashSet;
+import java.io.InputStream;
 
 /**
  * This world will let the player play a single level.
@@ -174,8 +174,8 @@ public class Game extends World
 
         // load the level into memory
         try {
-            File tempFile = new File(String.format(LEVEL_DIRECTORY_FORMAT, CURRENT_LEVEL));
-            levelLoad = new Scanner(tempFile);
+            InputStream tempStream = getClass().getResourceAsStream(String.format(LEVEL_DIRECTORY_FORMAT, CURRENT_LEVEL));
+            levelLoad = new Scanner(tempStream);
         } catch (Exception e) {
             System.err.println("Level " + CURRENT_LEVEL + " was not found!");
             System.err.println("This directory does not exist: " + String.format(LEVEL_DIRECTORY_FORMAT, CURRENT_LEVEL));
